@@ -1,0 +1,136 @@
+@font-face {
+  font-family:"Prompt-ExtraLight";
+  src: local("Prompt-ExtraLight"), 
+  url("font/Prompt-ExtraLight.ttf") format("truetype");
+}
+body{
+  font-family: "Prompt-ExtraLight";
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar{
+  background-color: #272626;
+  color: white;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .w-50 {
+    width: 100%;
+  }
+}
+
+.product-section {
+  padding: 3px;
+  border-color: #2f2f2f;
+}
+
+.product-section .product-item {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+
+
+.product-section .product-item h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.product-section .product-item strong {
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  border-color: #2f2f2f;
+}
+
+.product-section .product-item h3,
+.product-section .product-item strong {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+.img-fluid{
+  
+    
+    max-height: 200px;
+    
+
+}
+.product-section .product-item:before {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+  background: #e0ebe9;
+  height: 0%;
+  z-index: -1;
+  border-radius: 10px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.product-section .product-item:hover .product-thumbnail {
+  top: -25px;
+}
+.product-section .product-item:hover:before {
+  height: 70%;
+}
+.product-section .product-item {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+body{
+  background: #fcfcfc;
+}
+/* กำหนดสีไอคอนให้เป็นสีขาว */
+footer svg.bi {
+  fill: #ffffff;
+}
+
+/* กำหนดสีตัวอักษรให้เป็นสีขาว */
+footer .text-body-secondary {
+  color: #ffffff;
+}
+footer {
+  background-color: #272626;
+}
+
+.carousel-inner img {
+  padding-top: 30px;
+ 
+}
+.container{
+  padding-top: 60px;
+}
+
+.container ul li{
+font-size: 18px;
+}
+
+.boxshow{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
